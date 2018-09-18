@@ -44,13 +44,12 @@ end
 def add_s(array)
   new_array = array
   index_1 = new_array[1]
-  binding.pry
   new_array.each do |y|
     y << "s"
     new_array
   end
 
   new_array[1] = array[1]
-  puts s_array
-  s_array
+  puts new_array
+  new_array
 end
