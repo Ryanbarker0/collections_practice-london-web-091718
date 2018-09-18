@@ -42,8 +42,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_array = array
-  new_array = new_array.collect {|element| element << "s"}
+  new_array = []
+  new_array = array.collect {|element| element << "s"}
   new_array[1] = array[1]
   new_array
 end
