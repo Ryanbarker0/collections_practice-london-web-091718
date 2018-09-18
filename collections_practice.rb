@@ -42,14 +42,15 @@ def sum_array(array)
 end
 
 def add_s(array)
-  index_1 = array[1]
+  new_array = array
+  index_1 = new_array[1]
   binding.pry
-  s_array = array.each do |y|
+  array.each do |y|
     y << "s"
     s_array
   end
 
-  s_array[1] = index_1
+  array[1] = index_1
   puts s_array
   s_array
 end
