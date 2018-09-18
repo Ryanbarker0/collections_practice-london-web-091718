@@ -44,7 +44,6 @@ end
 def add_s(array)
   new_array = []
   new_array = array.collect {|element| elment + "s"}
-  end
 
   new_array[1] = array[1]
 end
