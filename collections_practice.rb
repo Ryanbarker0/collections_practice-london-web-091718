@@ -44,7 +44,7 @@ end
 def add_s(array)
   new_array = array
   index_1 = new_array[1]
-  new_array.each do |y|
+  new_array.collect do |y|
     y << "s"
     new_array
   end
