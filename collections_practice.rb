@@ -44,7 +44,7 @@ end
 def add_s(array)
   new_array = array
   new_array.collect do |y|
-    y << "s"
+    y + "s"
     new_array
   end
 
