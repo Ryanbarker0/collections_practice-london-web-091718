@@ -48,6 +48,4 @@ def add_s(array)
   end
 
   new_array[1] = array[1]
-  puts new_array
-  new_array
 end
